@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from core import Core
+from fas14mnet.core import Core
 
 class Fas14MNet(nn.Module):
 
