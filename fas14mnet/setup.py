@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 classifiers = [
-	'Development Status :: 5 - Production',
-	'Licence :: OSI Approved :: Apache 2.0',
+	'Development Status :: 5 - Production/Stable',
+	'License :: OSI Approved :: Apache Software License',
 	'Programming Language :: Python :: 3'
 ]
 
