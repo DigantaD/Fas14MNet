@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.1.0'
 DESCRIPTION = 'CNN architecture for Image Classification'
 
 # Setting up
@@ -16,6 +16,7 @@ setup(
     version=VERSION,
     author="Diganta Dutta",
     author_email="diganta.aimlos@gmail.com",
+    url="https://github.com/DigantaD/Fas14MNet/tree/main/src",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
