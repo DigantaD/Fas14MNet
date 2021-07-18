@@ -12,7 +12,7 @@ class Core(nn.Module):
 		self.layer0 = nn.Sequential(
 			nn.Conv2d(in_channels, out_channels, kernel_size=1, bias=False),
 			nn.BatchNorm2d(out_channels), nn.ReLU(),
-			nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=stride, bias=False),
+			nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=stride, padding=1, bias=False),
 			nn.BatchNorm2d(out_channels), nn.ReLU(),
 		)
 
